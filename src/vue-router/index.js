@@ -2,7 +2,7 @@
  * @Author: 毛毛
  * @Date: 2022-05-04 13:27:46
  * @Last Modified by: 毛毛
- * @Last Modified time: 2022-05-05 00:25:15
+ * @Last Modified time: 2022-05-05 13:34:31
  */
 
 import install, { Vue } from "./install";
@@ -29,7 +29,7 @@ class VueRouter {
       // pushState pop
       this.history = new BrowserHistory(this);
     }
-    console.log(this.history);
+    // console.log(this.history);
   }
   /**
    * 监听路由变化的初始化工作

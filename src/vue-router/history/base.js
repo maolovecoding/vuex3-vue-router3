@@ -28,7 +28,7 @@ export default class Base {
     runQueue(queue, this.current, route, () => {
       // 每次更新的是current 稍后current变化了，我们就可以切换页面显示
       this.current = route;
-      console.log(this.current);
+      // console.log(this.current);
       // 如果路由发生切换 也要改调用transitionTo方法 再次拿到新的记录
       // console.log(location, listener)
       // 执行钩子

@@ -15,7 +15,7 @@ export default class HashHistory extends Base {
       // 防止this改变
       // 这里会监听hash值变化 我们通过 location.hash设置 也会监听hash值的变化
       this.transitionTo(getHash());
-      console.log(getHash());
+      // console.log(getHash());
     });
   }
   push(location) {
